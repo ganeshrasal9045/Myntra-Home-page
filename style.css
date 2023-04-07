@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  height: 66px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: white;
+}
+
+.left img {
+  width: 40px;
+  height: 30px;
+}
+
+.container {
+  padding: 0 5vw;
+}
+
+.nav {
+  font-weight: 12px;
+  padding: 7px 0px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1 {
+  background: cyan;
+  /* height: 122vh; */
+  text-align: justify;
+}
+
+.search {
+  width: 22vw;
+  padding: 5px 20px;
+  background: cyan;
+  border: 0.2px solid gray;
+  border-radius: 5px;
+}
+
+.homeImg {
+  width: 88vw;
+  margin: 12px 0 12px 7px;
+}
+
+.itemImg {
+  width: 14vw;
+  margin: 5px 5px;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+  box-shadow: rgb(0, 0, 0 / 24%) 0px 3px 8px;
+  font-size: 18px;
+  background: lightskyblue;
+  font-family: "Kanit", sans-serif;
+}
+
+footer span {
+  font-weight: bold;
+}
